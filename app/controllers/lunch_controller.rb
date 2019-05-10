@@ -4,5 +4,4 @@ class LunchController < ApplicationController
 
         @recommend = eataries.sample
     end
-    end
 end
