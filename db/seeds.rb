@@ -5,4 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Eatery.create(name: "楽蔵", zip:"不明", address:"茨城県天久保三丁目", "029-xxxx-yyyy")
+2.times{Eatery.create(name: "楽蔵", zip:"不明", address:"茨城県天久保三丁目", "029-xxxx-yyyy")}
+
+
