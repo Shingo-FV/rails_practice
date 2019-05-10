@@ -1,6 +1,6 @@
 class LunchController < ApplicationController
     def go
-        eataries = [ ’楽蔵’,’くぼ屋’,’あさひや’,’DALI’]
+        eataries = [ ’mac’,’丸亀’,’山岡家’,’スタバ’]
 
         @recommend = eataries.sample
     end
