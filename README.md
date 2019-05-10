@@ -21,4 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* このアプリはランダムにおすすめのお店を紹介してくれるwebアプリです。（作者の独断）
