@@ -1,6 +1,20 @@
-<h1>　<%= @recommend.name %>にでも行きますか</h1>
-<ul>
-    <li>郵便番号 : <%= @recommend.zip %></li>
-    <li>住所 : <%= @recommend.address %></li>
-    <li>電話番号：<%= @recommend.tel %></li>
-</ul>
+<head>
+    <title>rails</title>
+</head>
+<style>
+    body{
+        background: #7fffd4;
+    }
+</style>
+    <div class='container'>
+        <body>
+            <h1>　<%= @recommend.name %>にでも行きますか</h1>
+        </body>
+    </div>
+    <div class='container'>
+        <ul>
+            <li>郵便番号 : <%= @recommend.zip %></li>
+            <li>住所 : <%= @recommend.address %></li>
+            <li>電話番号：<%= @recommend.tel %></li>
+        </ul>
+    </div>
